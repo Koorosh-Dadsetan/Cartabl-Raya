@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Cookies from "js-cookie";
 import { Helmet } from "react-helmet";
 
 const Login = () => {
@@ -33,7 +32,7 @@ const Login = () => {
     fetch("http://publish.com/ui/login/sign", requestOptions)
       .then((response) => response.json())
       .then((result) => {
-        Cookies.set("RAYASESSID", result.accessToken);
+        localStorage.setItem("accessToken", result.accessToken);
       })
       .catch((error) => console.log("error", error));
   };

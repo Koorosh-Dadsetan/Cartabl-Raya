@@ -315,9 +315,10 @@ const Sort = () => {
         </thead>
         <tbody>
           <tr>
-            <th scope="row">
+            <th scope="row" style={{ width: "5vw" }}>
               <form className="form-inline">
                 <select
+                  style={{ width: "0px" }}
                   className="custom-select my-1 mr-sm-2"
                   id="inlineFormCustomSelectPref"
                 >
@@ -375,8 +376,8 @@ const Sort = () => {
                 </div>
               </form>
             </td>
-            <td>
-              <input type="date" />
+            <td style={{ width: "0px" }}>
+              <input style={{ width: "15vw" }} type="date" />
             </td>
           </tr>
         </tbody>
