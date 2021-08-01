@@ -1,15 +1,13 @@
 @font-face {
-  font-family: "samin";
-  src: url("./../font/Samim.eot") format("eot");
-  src: url("./../font/Samim.ttf") format("ttf");
+  font-family: "samim";
   src: url("./../font/Samim.woff") format("woff");
 }
 
 .logo-bargh {
   background-image: url("./../img/N81985765-705609602.jpg");
   background-size: cover;
-  width: 34px;
-  height: 33px;
+  width: 39px;
+  height: 39px;
   border-radius: 50%;
 }
 
@@ -18,7 +16,8 @@
 }
 .header2 {
   padding: 1.5vh 0;
-  font-family: samin;
+  font-family: "samim";
+  font-size: 1.3em;
 }
 
 .sort1 {
@@ -31,6 +30,12 @@
   border: 1px solid rgb(220, 220, 220);
   border-radius: 5px;
   direction: rtl;
+  font-family: "samim";
+}
+
+.sort1-toggle {
+  float: right;
+  width: 90.4vw;
 }
 
 .sotoun {
@@ -51,6 +56,8 @@
   left: 3px;
   max-width: 93.6vw;
   background: #e0f7fa;
+  font-family: "samim";
+  text-align: right;
 }
 
 .container-table {
@@ -63,7 +70,7 @@
 
 .li-table {
   border-radius: 3px;
-  padding: 23px 28px;
+  padding: 25px 28px;
   display: flex;
   justify-content: space-between;
 }
@@ -74,7 +81,7 @@
 }
 
 .table-row:hover {
-  background: rgb(247, 247, 247);
+  background: rgb(245, 245, 245);
 }
 
 .col-1 {
@@ -191,11 +198,6 @@
 
 .sidebar-navigation ul li.active i {
   color: #98d7ec;
-}
-
-.sort1-toggle {
-  float: right;
-  width: 90.4vw;
 }
 
 .my-login {

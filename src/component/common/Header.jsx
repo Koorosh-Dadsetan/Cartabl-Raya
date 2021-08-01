@@ -4,7 +4,11 @@ const Header = () => {
   return (
     <nav className="navbar navbar-expand navbar-light header1 fixed-top">
       <div className="container header2">
-        <a className="navbar-brand text-light" href="#">
+        <a
+          className="navbar-brand text-light"
+          style={{ fontSize: "1.1em" }}
+          href="#"
+        >
           سه شنبه 15 تیر
         </a>
         <button
@@ -24,8 +28,8 @@ const Header = () => {
               <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="25"
+                  height="25"
                   fill="currentColor"
                   className="bi bi-house-fill text-light"
                   viewBox="0 0 16 16"
@@ -45,8 +49,8 @@ const Header = () => {
               <a className="nav-link" href="#">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
+                  width="25"
+                  height="25"
                   fill="currentColor"
                   className="bi bi-grid-fill text-light"
                   viewBox="0 0 16 16"
